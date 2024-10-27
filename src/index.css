@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.debug {
+  border: 1px solid red;
+}
+
+.custom-menu .ant-menu-item-selected {
+  background-color: #33343e !important; /* Change background for active item */
+  border-right: 4px solid #a11eec; /* Add left border */
+  color: #fff !important; /* Optional: Ensure text remains white */
+}
+
+.custom-menu .ant-menu-item-selected .anticon {
+  color: #ee02c7 !important; /* Keep the icon color white as well */
+}
+.messsages::-webkit-scrollbar {
+  display: none;
+}

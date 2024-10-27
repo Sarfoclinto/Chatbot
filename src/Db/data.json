@@ -1,0 +1,538 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Levey Iskowitz",
+      "username": "liskowitz0",
+      "phone": "+98 (655) 949-9389",
+      "dateCreated": "8/22/2024",
+      "status": "Sleeping",
+      "email": "amoine0@cloudflare.com",
+      "avatar": "https://cdn.pixabay.com/photo/2020/10/17/17/41/girl-5662873_640.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Peta Pendrick",
+      "username": "ppendrick1",
+      "phone": "+358 (480) 599-8955",
+      "dateCreated": "9/16/2024",
+      "status": "At work",
+      "email": "scosgrave1@howstuffworks.com",
+      "avatar": "https://cdn.pixabay.com/photo/2023/11/10/02/30/woman-8378634_640.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Nichols Charke",
+      "username": "ncharke2",
+      "phone": "+86 (979) 258-7962",
+      "dateCreated": "8/3/2024",
+      "status": "At work",
+      "email": "foganesian2@nbcnews.com",
+      "avatar": "https://cdn.pixabay.com/photo/2022/12/24/21/14/portrait-7676482_640.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Drud Dudman",
+      "username": "ddudman3",
+      "phone": "+505 (959) 914-8955",
+      "dateCreated": "7/16/2024",
+      "status": "In a meeting",
+      "email": "bfocke3@geocities.jp",
+      "avatar": "https://cdn.pixabay.com/photo/2022/09/02/20/03/man-7428290_640.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Harley Leamy",
+      "username": "hleamy4",
+      "phone": "+48 (841) 165-9555",
+      "dateCreated": "11/22/2023",
+      "status": "Urgent calls only",
+      "email": "fstaves4@techcrunch.com",
+      "avatar": "https://cdn.pixabay.com/photo/2022/09/16/13/07/generated-7458584_640.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Cyndie Combe",
+      "username": "ccombe5",
+      "phone": "+7 (954) 423-8470",
+      "dateCreated": "6/17/2024",
+      "status": "Available",
+      "email": "gbuddock5@joomla.org",
+      "avatar": "https://cdn.pixabay.com/photo/2015/01/06/16/14/woman-590490_640.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Venita Shearwood",
+      "username": "vshearwood6",
+      "phone": "+54 (931) 684-3313",
+      "dateCreated": "9/20/2024",
+      "status": "Available",
+      "email": "tmellmoth6@addthis.com",
+      "avatar": "https://cdn.pixabay.com/photo/2019/04/12/21/19/man-4123268_640.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Amity Mewton",
+      "username": "amewton7",
+      "phone": "+33 (404) 607-3198",
+      "dateCreated": "4/15/2024",
+      "status": "Urgent calls only",
+      "email": "gaspinell7@engadget.com",
+      "avatar": "https://cdn.pixabay.com/photo/2016/11/19/14/28/bed-1839564_640.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Nanice Kassel",
+      "username": "nkassel8",
+      "phone": "+976 (976) 159-9507",
+      "dateCreated": "2/19/2024",
+      "status": "Sleeping",
+      "email": "ejenton8@1688.com",
+      "avatar": "https://cdn.pixabay.com/photo/2022/08/08/16/52/man-7373140_640.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Charlene Palfree",
+      "username": "cpalfree9",
+      "phone": "+242 (583) 603-4752",
+      "dateCreated": "9/16/2024",
+      "status": "Urgent calls only",
+      "email": "adecayette9@webnode.com",
+      "avatar": "https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572_640.jpg"
+    }
+  ],
+  "conversation": [
+    {
+      "id": "1,9",
+      "participant": [1, 9],
+      "messages": [
+        {
+          "id": 1,
+          "senderId": "1",
+          "text": "Hello there",
+          "timeStamp": "12:03",
+          "via": "SMS"
+        },
+        {
+          "id": 2,
+          "senderId": "9",
+          "text": "Yh hello. How are you?",
+          "timeStamp": "12:05",
+          "via": "SMS"
+        },
+        {
+          "id": 9,
+          "senderId": "1",
+          "text": "I'm good, thanks. What about you?",
+          "timeStamp": "12:06",
+          "via": "SMS"
+        },
+        {
+          "id": 4,
+          "senderId": "9",
+          "text": "Doing great! Any plans for the weekend?",
+          "timeStamp": "12:08",
+          "via": "SMS"
+        },
+        {
+          "id": 5,
+          "senderId": "1",
+          "text": "Not sure yet. Might go hiking.",
+          "timeStamp": "12:10",
+          "via": "SMS"
+        },
+        {
+          "id": 6,
+          "senderId": "9",
+          "text": "Sounds fun! Let me know if you want company.",
+          "timeStamp": "12:12",
+          "via": "SMS"
+        },
+        {
+          "id": 7,
+          "senderId": "1",
+          "text": "Definitely! I'll keep you posted.",
+          "timeStamp": "12:14",
+          "via": "SMS"
+        },
+        {
+          "id": 8,
+          "senderId": "1",
+          "text": "Definitely! I'll keep you posted.",
+          "timeStamp": "12:14",
+          "via": "SMS"
+        },
+        {
+          "id": 9,
+          "senderId": "9",
+          "text": "Definitely! I'll keep you posted.",
+          "timeStamp": "12:14",
+          "via": "SMS"
+        },
+        {
+          "id": 10,
+          "senderId": "1",
+          "text": "Definitely! I'll keep you posted.",
+          "timeStamp": "12:14",
+          "via": "SMS"
+        }
+      ]
+    },
+    {
+      "id": "1,3",
+      "participant": [1, 3],
+      "messages": [
+        {
+          "id": 1,
+          "senderId": "1",
+          "text": "Hello there",
+          "timeStamp": "12:03",
+          "via": "SMS"
+        },
+        {
+          "id": 2,
+          "senderId": "3",
+          "text": "Yh hello. How are you?",
+          "timeStamp": "12:05",
+          "via": "SMS"
+        },
+        {
+          "id": 3,
+          "senderId": "1",
+          "text": "I'm good, thanks. What about you?",
+          "timeStamp": "12:06",
+          "via": "SMS"
+        },
+        {
+          "id": 4,
+          "senderId": "3",
+          "text": "Doing great! Any plans for the weekend?",
+          "timeStamp": "12:08",
+          "via": "SMS"
+        },
+        {
+          "id": 5,
+          "senderId": "1",
+          "text": "Not sure yet. Might go hiking.",
+          "timeStamp": "12:10",
+          "via": "SMS"
+        },
+        {
+          "id": 6,
+          "senderId": "3",
+          "text": "Sounds fun! Let me know if you want company.",
+          "timeStamp": "12:12",
+          "via": "SMS"
+        },
+        {
+          "id": 7,
+          "senderId": "1",
+          "text": "Definitely! I'll keep you posted.",
+          "timeStamp": "12:14",
+          "via": "SMS"
+        },
+        {
+          "id": 8,
+          "senderId": "1",
+          "text": "Definitely! I'll keep you posted.",
+          "timeStamp": "12:14",
+          "via": "SMS"
+        },
+        {
+          "id": 9,
+          "senderId": "3",
+          "text": "Definitely! I'll keep you posted.",
+          "timeStamp": "12:14",
+          "via": "SMS"
+        },
+        {
+          "id": 10,
+          "senderId": "1",
+          "text": "Definitely! I'll keep you posted.",
+          "timeStamp": "12:14",
+          "via": "SMS"
+        }
+      ]
+    },
+    {
+      "id": "1,5",
+      "participant": [1, 5],
+      "messages": [
+        {
+          "id": 1,
+          "senderId": "5",
+          "text": "Hey, are you coming to the meeting?",
+          "timeStamp": "09:30",
+          "via": "SMS"
+        },
+        {
+          "id": 2,
+          "senderId": "1",
+          "text": "Yes, I'll be there in 10 minutes.",
+          "timeStamp": "09:32",
+          "via": "SMS"
+        },
+        {
+          "id": 3,
+          "senderId": "5",
+          "text": "Great! See you there.",
+          "timeStamp": "09:33",
+          "via": "SMS"
+        }
+      ]
+    },
+    {
+      "id": "1,4",
+      "participant": "1, 4",
+      "messages": [
+        {
+          "id": 1,
+          "senderId": "1",
+          "text": "Did you finish the report?",
+          "timeStamp": "14:20",
+          "via": "SMS"
+        },
+        {
+          "id": 2,
+          "senderId": "4",
+          "text": "Yes, I sent it to your email.",
+          "timeStamp": "14:22",
+          "via": "SMS"
+        },
+        {
+          "id": 3,
+          "senderId": "1",
+          "text": "Thanks, I'll check it out.",
+          "timeStamp": "14:23",
+          "via": "SMS"
+        }
+      ]
+    },
+    {
+      "id": "1,8",
+      "participant": [1, 8],
+      "messages": [
+        {
+          "id": 8,
+          "senderId": "1",
+          "text": "What time are you thinking for the hike?",
+          "timeStamp": "12:16",
+          "via": "SMS"
+        },
+        {
+          "id": 9,
+          "senderId": "8",
+          "text": "Maybe around 9 AM. The weather should be perfect.",
+          "timeStamp": "12:18",
+          "via": "SMS"
+        },
+        {
+          "id": 10,
+          "senderId": "1",
+          "text": "Sounds great! I'll bring some snacks.",
+          "timeStamp": "12:20",
+          "via": "SMS"
+        },
+        {
+          "id": 11,
+          "senderId": "8",
+          "text": "Awesome, looking forward to it!",
+          "timeStamp": "12:21",
+          "via": "SMS"
+        }
+      ]
+    },
+    {
+      "id": "1,10",
+      "participant": [1, 10],
+      "messages": [
+        {
+          "id": 4,
+          "senderId": "1",
+          "text": "Have you prepared your slides for the meeting?",
+          "timeStamp": "09:34",
+          "via": "SMS"
+        },
+        {
+          "id": 5,
+          "senderId": "10",
+          "text": "Yes, I'm just adding the final touches.",
+          "timeStamp": "09:35",
+          "via": "SMS"
+        },
+        {
+          "id": 6,
+          "senderId": "1",
+          "text": "Good, can't wait to see them!",
+          "timeStamp": "09:37",
+          "via": "SMS"
+        },
+        {
+          "id": 7,
+          "senderId": "10",
+          "text": "Thanks, I hope they’ll be helpful.",
+          "timeStamp": "09:39",
+          "via": "SMS"
+        }
+      ]
+    },
+    {
+      "id": "1,2",
+      "participant": [1, 2],
+      "messages": [
+        {
+          "id": 4,
+          "senderId": "1",
+          "text": "Did you have a chance to review the report?",
+          "timeStamp": "14:25",
+          "via": "SMS"
+        },
+        {
+          "id": 5,
+          "senderId": "2",
+          "text": "Yes, I went through it. It looks good.",
+          "timeStamp": "14:28",
+          "via": "SMS"
+        },
+        {
+          "id": 6,
+          "senderId": "1",
+          "text": "Great, should we discuss the next steps?",
+          "timeStamp": "14:30",
+          "via": "SMS"
+        },
+        {
+          "id": 7,
+          "senderId": "2",
+          "text": "Sure, let's sync up later today.",
+          "timeStamp": "14:32",
+          "via": "SMS"
+        }
+      ]
+    },
+    {
+      "id": "1,6",
+      "participant": [1, 6],
+      "messages": [
+        {
+          "id": 5,
+          "senderId": "1",
+          "text": "Hey, have you checked out the new project updates?",
+          "timeStamp": "10:15",
+          "via": "SMS"
+        },
+        {
+          "id": 2,
+          "senderId": "6",
+          "text": "Not yet, I was about to. Anything interesting?",
+          "timeStamp": "10:17",
+          "via": "SMS"
+        },
+        {
+          "id": 3,
+          "senderId": "1",
+          "text": "Yeah, we’ve added some new features to the dashboard.",
+          "timeStamp": "10:19",
+          "via": "SMS"
+        },
+        {
+          "id": 4,
+          "senderId": "6",
+          "text": "Nice, I’ll take a look now.",
+          "timeStamp": "10:21",
+          "via": "SMS"
+        }
+      ]
+    },
+    {
+      "id": "1,7",
+      "participant": [1, 7],
+      "messages": [
+        {
+          "id": 1,
+          "senderId": "1",
+          "text": "Morning! Did you get the email about the design changes?",
+          "timeStamp": "08:45",
+          "via": "SMS"
+        },
+        {
+          "id": 2,
+          "senderId": "7",
+          "text": "Yes, I saw it. I think the new layout is much cleaner.",
+          "timeStamp": "08:47",
+          "via": "SMS"
+        },
+        {
+          "id": 3,
+          "senderId": "1",
+          "text": "Agreed! It should improve usability.",
+          "timeStamp": "08:50",
+          "via": "SMS"
+        },
+        {
+          "id": 4,
+          "senderId": "7",
+          "text": "Absolutely. We should run a quick test to gather feedback.",
+          "timeStamp": "08:53",
+          "via": "SMS"
+        }
+      ]
+    },
+    {
+      "id": "1,11",
+      "participant": [1, 11],
+      "messages": [
+        {
+          "id": 1,
+          "senderId": "1",
+          "text": "Hey, it's been a while since we last caught up! How's everything going on your end? Hope you've been doing well with all the projects and the new stuff you mentioned before.",
+          "timeStamp": "09:45",
+          "via": "SMS"
+        },
+        {
+          "id": 2,
+          "senderId": "11",
+          "text": "Hey! Yeah, it’s been quite busy, to be honest. Work's been really hectic, but in a good way. I’ve been working on that big project I told you about, and it’s finally starting to come together! What about you?",
+          "timeStamp": "09:47",
+          "via": "SMS"
+        },
+        {
+          "id": 3,
+          "senderId": "1",
+          "text": "Wow, that's awesome! I remember you mentioning how important that project was. I'm doing well too. Recently started learning some new coding languages, which has been challenging but fun. It feels like there's always so much more to learn, right?",
+          "timeStamp": "09:50",
+          "via": "SMS"
+        },
+        {
+          "id": 4,
+          "senderId": "11",
+          "text": "Totally! There’s always something new in tech, and it's hard to keep up sometimes, but that’s also what makes it exciting. Which languages are you diving into? I’ve been meaning to pick up something new myself, maybe a framework or something.",
+          "timeStamp": "09:53",
+          "via": "SMS"
+        },
+        {
+          "id": 5,
+          "senderId": "1",
+          "text": "I started with TypeScript recently, trying to get a deeper understanding of how it works with React. And, I've also been experimenting with some backend stuff using Node.js. It’s been a great learning curve, especially integrating the two for full-stack development.",
+          "timeStamp": "09:57",
+          "via": "SMS"
+        },
+        {
+          "id": 6,
+          "senderId": "11",
+          "text": "That’s really cool! I’ve heard great things about TypeScript and how it helps with reducing bugs. Full-stack development is the way to go these days. I've been thinking of getting into Next.js, which seems to complement React pretty well. Maybe we could collaborate on something soon?",
+          "timeStamp": "10:00",
+          "via": "SMS"
+        },
+        {
+          "id": 7,
+          "senderId": "1",
+          "text": "Next.js is definitely on my list too! Collaboration sounds great! Let me finish up with what I'm working on right now, and we could brainstorm ideas for a project. It’ll be good practice and who knows what we might come up with!",
+          "timeStamp": "10:03",
+          "via": "SMS"
+        }
+      ]
+    }
+  ],
+  "message": []
+}
