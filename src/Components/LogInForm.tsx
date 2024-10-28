@@ -1,6 +1,7 @@
 import { Form, Input, Button } from "antd";
 import { ChangeEvent, useState } from "react";
 import { UserInputTypes } from "../Modules/types";
+import axios from "axios";
 
 const LogInForm = () => {
   const [form] = Form.useForm();
@@ -21,10 +22,25 @@ const LogInForm = () => {
       };
     });
   };
+  const onFinish = async (values) => {
+    const reply = await axios.post(
+      "http://localhost/Chatbot/PHP/essai.php",
+      values
+    );
+    console.log(reply);
+  };
 
   return (
     <div className="border p-5 rounded-3xl">
-      <Form className="mt-10" layout="vertical" form={form} autoComplete="off" action="http://localhost/Chatbot/essai.php" method="POST">
+      <Form
+        onFinish={onFinish}
+        className="mt-10"
+        layout="vertical"
+        form={form}
+        autoComplete="off"
+        action="http://localhost/Chatbot/essai.php"
+        method="POST"
+      >
         <h4 className="text-center text-stone-400 font-medium">
           Enter your email address and password to <br /> access Doctor panel
         </h4>
@@ -70,13 +86,7 @@ const LogInForm = () => {
           />
         </Form.Item>
         <Form.Item className="mt-10">
-          <Button
-            type="primary"
-            block
-            htmlType="submit"
-            loading={loading}
-            disabled={loading ? true : false}
-          >
+          <Button type="primary" block htmlType="submit">
             Login
           </Button>
         </Form.Item>

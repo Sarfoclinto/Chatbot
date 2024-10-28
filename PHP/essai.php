@@ -31,7 +31,7 @@ if(isset($_POST["submit"])){
         $_SESSION['login']= true;
         $_SESSION['email']= $row['email'];
 
-        header('location: /dashbaord');
+        header('location: /main');
 
     } else{
 
