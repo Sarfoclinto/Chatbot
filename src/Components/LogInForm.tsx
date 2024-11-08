@@ -3,14 +3,17 @@ import { ChangeEvent, useState } from "react";
 import { UserInputTypes } from "../Modules/types";
 import axios from "axios";
 
+interface valuesTypes {
+  emialAddress: string;
+  password: string;
+}
+
 const LogInForm = () => {
   const [form] = Form.useForm();
   const [userInputs, setUserInputs] = useState<UserInputTypes>({
     emailAddress: "",
     password: "",
   });
-  const [loading] = useState<boolean>(false);
-
   const handleUserInputChange = (
     e: ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
   ) => {
@@ -22,7 +25,7 @@ const LogInForm = () => {
       };
     });
   };
-  const onFinish = async (values) => {
+  const onFinish = async (values: valuesTypes) => {
     const reply = await axios.post(
       "http://localhost/Chatbot/PHP/essai.php",
       values
